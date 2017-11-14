@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Angular CLI Webpack Test</title>
+</head>
+<body>
+<app-root></app-root>
+  <!-- For ng serve (development) we point our java servlet at these files -->
+  <script src="http://localhost:4201/inline.bundle.js"></script>
+  <script src="http://localhost:4201/polyfills.bundle.js"></script>
+  <script src="http://localhost:4201/styles.bundle.js"></script>
+  <script src="http://localhost:4201/vendor.bundle.js"></script>
+  <script src="http://localhost:4201/main.bundle.js"></script>
+
+  <!-- in production we point the java servlet at the dist files -->
+</body>
+</html>
